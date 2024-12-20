@@ -117,7 +117,7 @@ const Author = styled.div`
   color: ${({ theme }) => theme.secondaryText};
 `;
 
-const BlogCard = ({ blog }) => {
+const GalleryCard = ({ blog }) => {
   const navigate = useNavigate();
 
   return (
@@ -133,7 +133,7 @@ const BlogCard = ({ blog }) => {
           <Rating value={blog?.rating} sx={{ fontSize: "14px" }} />
         </Rate>
       </Top>
-      <Details onClick={() => navigate(`/blogs/${blog._id}`)}>
+      <Details onClick={() => navigate(`/gallery/${blog._id}`)}>
         <Title>{blog?.title}</Title>
         <Desc>{blog?.desc}</Desc>
         <Meta>
@@ -145,4 +145,4 @@ const BlogCard = ({ blog }) => {
   );
 };
 
-export default BlogCard;
+export default GalleryCard;

@@ -165,8 +165,8 @@ const Navbar = ({setOpenAuth, openAuth}) => {
             <Navlink to="/contact" onClick={() => setIsOpen(!isOpen)}>
               Contact
             </Navlink>
-            <Navlink to="/blogs" onClick={() => setIsOpen(!isOpen)}>
-              Blogs
+            <Navlink to="/gallery" onClick={() => setIsOpen(!isOpen)}>
+              Gallery
             </Navlink>
             <div style={{ flex: 1, display: "flex", gap: "12px" }}>
               <Button type="secondary" text="SignUp" small></Button>
@@ -179,7 +179,7 @@ const Navbar = ({setOpenAuth, openAuth}) => {
           <Navlink to="/">Home</Navlink>
           <Navlink to="/properties">Places to Stay</Navlink>
           <Navlink to="/contact">Contact</Navlink>
-          <Navlink to="/Blogs">Blogs</Navlink>
+          <Navlink to="/gallery">Gallery</Navlink>
         </NavItems>
         <ButtonContainer>
           <Button type="secondary" text="SignIn" small onClick={() => setOpenAuth(!openAuth)}></Button>

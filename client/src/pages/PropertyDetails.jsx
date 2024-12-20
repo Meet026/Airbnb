@@ -78,7 +78,7 @@ const BookingContainer = styled.div`
 const PropertyDetails = () => {
   const property = {
     _id: "12345",
-    img: "https://www.businesstravel.com/hubfs/Blog%20Art/BT_Blog_7HotelTipsForBusinessTravelers.jpg",
+    img: "https://images.pexels.com/photos/29848858/pexels-photo-29848858/free-photo-of-scenic-twilight-view-of-lakefront-in-lombardy.jpeg?auto=compress&cs=tinysrgb&w=600",
     title: "Beautiful Beach House",
     desc: "A stunning house located near the beach with amazing sea views.",
     rating: "1.5",

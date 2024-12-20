@@ -52,15 +52,15 @@ const Date = styled.div`
   font-size: 14px;
 `;
 
-const BlogDetails = () => {
+const GalleryDetails = () => {
   const { blogId } = useParams();
   const navigate = useNavigate();
 
   // This data could come from an API or be dynamic
   const blog = {
-    img: "https://via.placeholder.com/500",
-    title: "Amazing Beach Destination",
-    desc: "Discover the hidden gems of the beach that offer relaxation and adventure for everyone.",
+    img: "https://images.pexels.com/photos/66258/staniel-cay-swimming-pig-seagull-fish-66258.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    title: "Sunset Beach Paradise",
+    desc: "This beach is a slice of heaven! The soft golden sands and crystal-clear waters make it the perfect spot for relaxation. Watching the sun set over the ocean was absolutely magical. The waves were gentle enough for kids to play safely, and the nearby café served some of the best seafood we've ever had. It’s the perfect escape for families, couples, or solo travelers looking for peace and beauty.",
     author: "Jane Doe",
     date: "December 10, 2024",
   };
@@ -85,4 +85,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default GalleryDetails;

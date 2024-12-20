@@ -11,8 +11,8 @@ import PropertyDetails from "./pages/PropertyDetails";
 import PropertyListing from "./pages/PropertyListing";
 import background from "./utils/Images/Background.jpg";
 import ContactForm from "./componnents/ContactForm";
-import BlogsPage from "./componnents/BlogsPage";
-import BlogDetails from "./pages/BlogDetails";
+import GalleryPage from "./componnents/GalleryPage";
+import GalleryDetails from "./pages/GalleryDetailes";
 
 const Container = styled.div`
   width: 100%;
@@ -39,12 +39,8 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />}></Route>
             <Route path="/contact" exact element={<ContactForm />}></Route>
-            <Route path="/blogs" exact element={<BlogsPage />}></Route>
-            <Route
-              path="/blogs/:id"
-              exact
-              element={<BlogDetails />}
-            ></Route>
+            <Route path="/gallery" exact element={<GalleryPage />}></Route>
+            <Route path="/gallery/:id" exact element={<GalleryDetails />}></Route>
             <Route
               path="/properties"
               exact
